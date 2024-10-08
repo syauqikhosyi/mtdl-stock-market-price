@@ -66,7 +66,7 @@ docker-compose down
 ---
 
 ## System Architecture
-![System Architecture](https://github.com/syauqikhosyi/mtdl-stock-market-price/blob/main/mtdl-stock-market-price/documentations/System-Architecture.png)
+![System Architecture](https://github.com/syauqikhosyi/mtdl-stock-market-price/blob/main/documentations/System-Architecture.png)
 
 ---
 
