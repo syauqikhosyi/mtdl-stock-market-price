@@ -1,0 +1,20 @@
+[2024-09-26T15:05:41.133+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-26T15:05:41.153+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: find_activity.get_activity manual__2024-09-26T15:05:40.410720+00:00 [queued]>
+[2024-09-26T15:05:41.163+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: find_activity.get_activity manual__2024-09-26T15:05:40.410720+00:00 [queued]>
+[2024-09-26T15:05:41.164+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-09-26T15:05:41.194+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): get_activity> on 2024-09-26 15:05:40.410720+00:00
+[2024-09-26T15:05:41.201+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=765) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-09-26T15:05:41.202+0000] {standard_task_runner.py:72} INFO - Started process 766 to run task
+[2024-09-26T15:05:41.203+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'find_activity', 'get_activity', 'manual__2024-09-26T15:05:40.410720+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/find_activity.py', '--cfg-path', '/tmp/tmpj1mn8sfb']
+[2024-09-26T15:05:41.204+0000] {standard_task_runner.py:105} INFO - Job 21: Subtask get_activity
+[2024-09-26T15:05:41.269+0000] {task_command.py:467} INFO - Running <TaskInstance: find_activity.get_activity manual__2024-09-26T15:05:40.410720+00:00 [running]> on host 07583ab04db1
+[2024-09-26T15:05:41.402+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='find_activity' AIRFLOW_CTX_TASK_ID='get_activity' AIRFLOW_CTX_EXECUTION_DATE='2024-09-26T15:05:40.410720+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-26T15:05:40.410720+00:00'
+[2024-09-26T15:05:41.403+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-26T15:05:42.146+0000] {python.py:240} INFO - Done. Returned value was: {'activity': 'Start a webinar on a topic of your choice', 'availability': 0.9, 'type': 'education', 'participants': 1, 'price': 0, 'accessibility': 'Few to no challenges', 'duration': 'hours', 'kidFriendly': True, 'link': '', 'key': '6826029'}
+[2024-09-26T15:05:42.173+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-26T15:05:42.175+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=find_activity, task_id=get_activity, run_id=manual__2024-09-26T15:05:40.410720+00:00, execution_date=20240926T150540, start_date=20240926T150541, end_date=20240926T150542
+[2024-09-26T15:05:42.223+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-09-26T15:05:42.252+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-09-26T15:05:42.257+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

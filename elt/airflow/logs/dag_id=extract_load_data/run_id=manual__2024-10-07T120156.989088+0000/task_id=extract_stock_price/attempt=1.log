@@ -1,0 +1,34 @@
+[2024-10-07T12:02:01.972+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-07T12:02:01.998+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_load_data.extract_stock_price manual__2024-10-07T12:01:56.989088+00:00 [queued]>
+[2024-10-07T12:02:02.010+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_load_data.extract_stock_price manual__2024-10-07T12:01:56.989088+00:00 [queued]>
+[2024-10-07T12:02:02.011+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-07T12:02:02.034+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): extract_stock_price> on 2024-10-07 12:01:56.989088+00:00
+[2024-10-07T12:02:02.044+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=78) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-07T12:02:02.048+0000] {standard_task_runner.py:72} INFO - Started process 82 to run task
+[2024-10-07T12:02:02.049+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'extract_load_data', 'extract_stock_price', 'manual__2024-10-07T12:01:56.989088+00:00', '--job-id', '204', '--raw', '--subdir', 'DAGS_FOLDER/extract_load_data.py', '--cfg-path', '/tmp/tmp8zcyv0d9']
+[2024-10-07T12:02:02.052+0000] {standard_task_runner.py:105} INFO - Job 204: Subtask extract_stock_price
+[2024-10-07T12:02:02.114+0000] {task_command.py:467} INFO - Running <TaskInstance: extract_load_data.extract_stock_price manual__2024-10-07T12:01:56.989088+00:00 [running]> on host 54052dc95dc8
+[2024-10-07T12:02:02.260+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_load_data' AIRFLOW_CTX_TASK_ID='extract_stock_price' AIRFLOW_CTX_EXECUTION_DATE='2024-10-07T12:01:56.989088+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-07T12:01:56.989088+00:00'
+[2024-10-07T12:02:02.264+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-07T12:02:02.269+0000] {cache.py:130} INFO - Failed to create TzCache, reason: Error creating TzCache folder: '/home/***/.cache/py-yfinance' reason: [Errno 17] File exists: '/home/***/.cache/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'
+[2024-10-07T12:02:03.656+0000] {python.py:240} INFO - Done. Returned value was:            Date        Open        High         Low       Close   Volume
+0    2014-01-02   43.293319   43.293319   41.091963   41.825748   434556
+1    2014-01-03   41.825747   42.559532   41.091962   42.559532  1798352
+2    2014-01-06   42.412775   42.559532   42.412775   42.559532  1334278
+3    2014-01-07   42.412778   42.412778   41.532236   41.678993  1113447
+4    2014-01-08   41.678991   41.825748   41.532234   41.532234  9790360
+...         ...         ...         ...         ...         ...      ...
+2657 2024-10-01  635.000000  640.000000  630.000000  630.000000   989300
+2658 2024-10-02  630.000000  635.000000  615.000000  625.000000  1602500
+2659 2024-10-03  625.000000  630.000000  615.000000  620.000000   681000
+2660 2024-10-04  620.000000  625.000000  605.000000  605.000000  1751100
+2661 2024-10-07  605.000000  630.000000  605.000000  625.000000  1526800
+
+[2662 rows x 6 columns]
+[2024-10-07T12:02:03.855+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-07T12:02:03.856+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=extract_load_data, task_id=extract_stock_price, run_id=manual__2024-10-07T12:01:56.989088+00:00, execution_date=20241007T120156, start_date=20241007T120201, end_date=20241007T120203
+[2024-10-07T12:02:03.913+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-07T12:02:03.952+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-07T12:02:03.956+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

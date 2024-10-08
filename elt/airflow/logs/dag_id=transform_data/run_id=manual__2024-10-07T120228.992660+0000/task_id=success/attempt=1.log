@@ -1,0 +1,24 @@
+[2024-10-07T12:02:38.451+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-07T12:02:38.470+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transform_data.success manual__2024-10-07T12:02:28.992660+00:00 [queued]>
+[2024-10-07T12:02:38.485+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transform_data.success manual__2024-10-07T12:02:28.992660+00:00 [queued]>
+[2024-10-07T12:02:38.486+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-07T12:02:38.517+0000] {taskinstance.py:2888} INFO - Executing <Task(_BashDecoratedOperator): success> on 2024-10-07 12:02:28.992660+00:00
+[2024-10-07T12:02:38.527+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=142) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-07T12:02:38.529+0000] {standard_task_runner.py:72} INFO - Started process 147 to run task
+[2024-10-07T12:02:38.530+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'transform_data', 'success', 'manual__2024-10-07T12:02:28.992660+00:00', '--job-id', '212', '--raw', '--subdir', 'DAGS_FOLDER/transform_data.py', '--cfg-path', '/tmp/tmprwp6biq8']
+[2024-10-07T12:02:38.533+0000] {standard_task_runner.py:105} INFO - Job 212: Subtask success
+[2024-10-07T12:02:38.601+0000] {task_command.py:467} INFO - Running <TaskInstance: transform_data.success manual__2024-10-07T12:02:28.992660+00:00 [running]> on host 54052dc95dc8
+[2024-10-07T12:02:38.716+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='transform_data' AIRFLOW_CTX_TASK_ID='success' AIRFLOW_CTX_EXECUTION_DATE='2024-10-07T12:02:28.992660+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-07T12:02:28.992660+00:00'
+[2024-10-07T12:02:38.718+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-07T12:02:38.763+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-10-07T12:02:38.764+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "The DAG is running well"']
+[2024-10-07T12:02:38.783+0000] {subprocess.py:86} INFO - Output:
+[2024-10-07T12:02:38.785+0000] {subprocess.py:93} INFO - The DAG is running well
+[2024-10-07T12:02:38.786+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-10-07T12:02:38.827+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-07T12:02:38.829+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=transform_data, task_id=success, run_id=manual__2024-10-07T12:02:28.992660+00:00, execution_date=20241007T120228, start_date=20241007T120238, end_date=20241007T120238
+[2024-10-07T12:02:38.868+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-07T12:02:38.895+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-07T12:02:38.899+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,86 @@
+[2024-10-01T12:28:08.780+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-01T12:28:08.795+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transform_data.success manual__2024-10-01T12:28:04.494174+00:00 [queued]>
+[2024-10-01T12:28:08.803+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transform_data.success manual__2024-10-01T12:28:04.494174+00:00 [queued]>
+[2024-10-01T12:28:08.804+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-01T12:28:08.821+0000] {taskinstance.py:2888} INFO - Executing <Task(_BashDecoratedOperator): success> on 2024-10-01 12:28:04.494174+00:00
+[2024-10-01T12:28:08.828+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=368) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-01T12:28:08.830+0000] {standard_task_runner.py:72} INFO - Started process 370 to run task
+[2024-10-01T12:28:08.830+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'transform_data', 'success', 'manual__2024-10-01T12:28:04.494174+00:00', '--job-id', '188', '--raw', '--subdir', 'DAGS_FOLDER/transform_data.py', '--cfg-path', '/tmp/tmpq3k3d07v']
+[2024-10-01T12:28:08.832+0000] {standard_task_runner.py:105} INFO - Job 188: Subtask success
+[2024-10-01T12:28:08.881+0000] {task_command.py:467} INFO - Running <TaskInstance: transform_data.success manual__2024-10-01T12:28:04.494174+00:00 [running]> on host 9ff0d37a02a4
+[2024-10-01T12:28:08.961+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='transform_data' AIRFLOW_CTX_TASK_ID='success' AIRFLOW_CTX_EXECUTION_DATE='2024-10-01T12:28:04.494174+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-01T12:28:04.494174+00:00'
+[2024-10-01T12:28:08.962+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-01T12:28:08.965+0000] {logging_mixin.py:190} INFO - This DAG is running well
+[2024-10-01T12:28:08.966+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/bash.py", line 80, in execute
+    raise TypeError("The returned value from the TaskFlow callable must be a non-empty string.")
+TypeError: The returned value from the TaskFlow callable must be a non-empty string.
+[2024-10-01T12:28:08.975+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=transform_data, task_id=success, run_id=manual__2024-10-01T12:28:04.494174+00:00, execution_date=20241001T122804, start_date=20241001T122808, end_date=20241001T122808
+[2024-10-01T12:28:08.988+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-01T12:28:08.989+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 188 for task success (The returned value from the TaskFlow callable must be a non-empty string.; 370)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/bash.py", line 80, in execute
+    raise TypeError("The returned value from the TaskFlow callable must be a non-empty string.")
+TypeError: The returned value from the TaskFlow callable must be a non-empty string.
+[2024-10-01T12:28:09.006+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-10-01T12:28:09.021+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-01T12:28:09.027+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

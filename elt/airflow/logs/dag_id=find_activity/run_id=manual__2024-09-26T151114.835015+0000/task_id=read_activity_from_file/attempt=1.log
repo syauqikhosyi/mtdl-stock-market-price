@@ -1,0 +1,21 @@
+[2024-09-26T15:11:20.180+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-26T15:11:20.197+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: find_activity.read_activity_from_file manual__2024-09-26T15:11:14.835015+00:00 [queued]>
+[2024-09-26T15:11:20.206+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: find_activity.read_activity_from_file manual__2024-09-26T15:11:14.835015+00:00 [queued]>
+[2024-09-26T15:11:20.207+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-09-26T15:11:20.228+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): read_activity_from_file> on 2024-09-26 15:11:14.835015+00:00
+[2024-09-26T15:11:20.233+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=853) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-09-26T15:11:20.235+0000] {standard_task_runner.py:72} INFO - Started process 854 to run task
+[2024-09-26T15:11:20.235+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'find_activity', 'read_activity_from_file', 'manual__2024-09-26T15:11:14.835015+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/find_activity.py', '--cfg-path', '/tmp/tmpet0vqbvy']
+[2024-09-26T15:11:20.236+0000] {standard_task_runner.py:105} INFO - Job 27: Subtask read_activity_from_file
+[2024-09-26T15:11:20.289+0000] {task_command.py:467} INFO - Running <TaskInstance: find_activity.read_activity_from_file manual__2024-09-26T15:11:14.835015+00:00 [running]> on host 07583ab04db1
+[2024-09-26T15:11:20.411+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='find_activity' AIRFLOW_CTX_TASK_ID='read_activity_from_file' AIRFLOW_CTX_EXECUTION_DATE='2024-09-26T15:11:14.835015+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-26T15:11:14.835015+00:00'
+[2024-09-26T15:11:20.412+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-26T15:11:20.415+0000] {logging_mixin.py:190} INFO - Today you will: Have a paper airplane contest with some friendsToday you will: Start a webinar on a topic of your choiceToday you will: Learn how to use a french press
+[2024-09-26T15:11:20.416+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-09-26T15:11:20.427+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-26T15:11:20.428+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=find_activity, task_id=read_activity_from_file, run_id=manual__2024-09-26T15:11:14.835015+00:00, execution_date=20240926T151114, start_date=20240926T151120, end_date=20240926T151120
+[2024-09-26T15:11:20.451+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-09-26T15:11:20.469+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-26T15:11:20.475+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

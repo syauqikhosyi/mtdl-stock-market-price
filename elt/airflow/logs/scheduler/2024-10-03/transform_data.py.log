@@ -1,0 +1,875 @@
+[2024-10-03T09:55:13.311+0000] {processor.py:186} INFO - Started process (PID=60) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T09:55:13.313+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T09:55:13.334+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:55:13.331+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:55:21.010+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:55:21.520+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:55:21.520+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T09:55:21.558+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:55:21.558+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T09:55:21.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 8.433 seconds
+[2024-10-03T09:55:52.354+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T09:55:52.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T09:55:52.365+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:55:52.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:55:53.291+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:55:53.338+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:55:53.338+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T09:55:53.372+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:55:53.372+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T09:55:53.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.094 seconds
+[2024-10-03T09:56:24.194+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T09:56:24.196+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T09:56:24.201+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:56:24.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:56:24.932+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:56:24.972+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:56:24.972+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T09:56:25.014+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:56:25.013+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T09:56:25.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.877 seconds
+[2024-10-03T09:56:55.790+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T09:56:55.792+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T09:56:55.797+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:56:55.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:56:56.815+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:56:56.841+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:56:56.841+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T09:56:56.868+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:56:56.868+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T09:56:56.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.128 seconds
+[2024-10-03T09:57:27.720+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T09:57:27.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T09:57:27.726+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:57:27.725+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:57:28.501+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:57:28.528+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:57:28.528+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T09:57:28.557+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:57:28.556+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T09:57:28.594+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.883 seconds
+[2024-10-03T09:57:59.251+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T09:57:59.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T09:57:59.256+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:57:59.255+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:57:59.927+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:57:59.954+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:57:59.954+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T09:57:59.987+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:57:59.986+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T09:58:00.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.777 seconds
+[2024-10-03T09:58:30.604+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T09:58:30.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T09:58:30.616+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:58:30.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:58:31.376+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:58:31.401+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:58:31.401+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T09:58:31.426+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:58:31.425+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T09:58:31.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.861 seconds
+[2024-10-03T09:59:01.967+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T09:59:01.968+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T09:59:01.972+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:59:01.972+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:59:02.916+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:59:02.951+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:59:02.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T09:59:02.990+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:59:02.989+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T09:59:03.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.066 seconds
+[2024-10-03T09:59:33.271+0000] {processor.py:186} INFO - Started process (PID=170) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T09:59:33.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T09:59:33.279+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:59:33.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:59:34.087+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T09:59:34.127+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:59:34.126+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T09:59:34.172+0000] {logging_mixin.py:190} INFO - [2024-10-03T09:59:34.171+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T09:59:34.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.957 seconds
+[2024-10-03T10:00:05.006+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:00:05.009+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:00:05.015+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:00:05.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:00:06.029+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:00:06.097+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:00:06.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:00:06.134+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:00:06.134+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:00:06.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.187 seconds
+[2024-10-03T10:00:37.074+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:00:37.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:00:37.082+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:00:37.082+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:00:37.894+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:00:37.922+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:00:37.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:00:37.956+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:00:37.955+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:00:37.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.930 seconds
+[2024-10-03T10:01:08.617+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:01:08.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:01:08.626+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:01:08.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:01:09.365+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:01:09.394+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:01:09.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:01:09.422+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:01:09.421+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:01:09.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.853 seconds
+[2024-10-03T10:01:40.094+0000] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:01:40.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:01:40.105+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:01:40.104+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:01:41.029+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:01:41.074+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:01:41.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:01:41.123+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:01:41.122+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:01:41.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.088 seconds
+[2024-10-03T10:02:11.311+0000] {processor.py:186} INFO - Started process (PID=235) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:02:11.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:02:11.321+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:02:11.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:02:12.077+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:02:12.123+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:02:12.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:02:12.161+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:02:12.160+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:02:12.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.904 seconds
+[2024-10-03T10:02:42.873+0000] {processor.py:186} INFO - Started process (PID=248) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:02:42.875+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:02:42.880+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:02:42.879+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:02:43.712+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:02:43.752+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:02:43.752+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:02:43.792+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:02:43.792+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:02:43.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.974 seconds
+[2024-10-03T10:03:14.562+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:03:14.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:03:14.569+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:03:14.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:03:15.452+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:03:15.493+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:03:15.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:03:15.538+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:03:15.537+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:03:15.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.042 seconds
+[2024-10-03T10:03:45.811+0000] {processor.py:186} INFO - Started process (PID=274) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:03:45.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:03:45.820+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:03:45.819+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:03:46.625+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:03:46.649+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:03:46.648+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:03:46.683+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:03:46.682+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:03:46.723+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.927 seconds
+[2024-10-03T10:04:17.283+0000] {processor.py:186} INFO - Started process (PID=287) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:04:17.286+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:04:17.291+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:04:17.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:04:18.000+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:04:18.025+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:04:18.025+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:04:18.051+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:04:18.051+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:04:18.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.812 seconds
+[2024-10-03T10:04:49.087+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:04:49.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:04:49.095+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:04:49.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:04:49.878+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:04:49.904+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:04:49.903+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:04:49.927+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:04:49.926+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:04:49.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.885 seconds
+[2024-10-03T10:05:20.126+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:05:20.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:05:20.135+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:05:20.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:05:20.874+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:05:20.904+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:05:20.904+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:05:20.932+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:05:20.931+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:05:20.963+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.850 seconds
+[2024-10-03T10:05:51.127+0000] {processor.py:186} INFO - Started process (PID=332) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:05:51.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:05:51.133+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:05:51.132+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:05:52.014+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:05:52.053+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:05:52.052+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:05:52.095+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:05:52.094+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:05:52.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.018 seconds
+[2024-10-03T10:06:22.840+0000] {processor.py:186} INFO - Started process (PID=345) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:06:22.842+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:06:22.846+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:06:22.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:06:23.638+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:06:23.671+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:06:23.671+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:06:23.711+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:06:23.710+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:06:23.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.910 seconds
+[2024-10-03T10:06:54.658+0000] {processor.py:186} INFO - Started process (PID=358) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:06:54.660+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:06:54.664+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:06:54.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:06:55.511+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:06:55.537+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:06:55.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:06:55.563+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:06:55.562+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:06:55.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.943 seconds
+[2024-10-03T10:07:26.322+0000] {processor.py:186} INFO - Started process (PID=371) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:07:26.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:07:26.326+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:07:26.326+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:07:27.162+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:07:27.185+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:07:27.185+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:07:27.214+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:07:27.214+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:07:27.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.934 seconds
+[2024-10-03T10:07:57.965+0000] {processor.py:186} INFO - Started process (PID=384) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:07:57.968+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:07:57.974+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:07:57.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:07:58.662+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:07:58.690+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:07:58.690+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:07:58.715+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:07:58.714+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:07:58.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.792 seconds
+[2024-10-03T10:08:29.500+0000] {processor.py:186} INFO - Started process (PID=397) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:08:29.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:08:29.507+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:08:29.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:08:30.183+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:08:30.207+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:08:30.207+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:08:30.231+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:08:30.231+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:08:30.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.770 seconds
+[2024-10-03T10:09:00.964+0000] {processor.py:186} INFO - Started process (PID=410) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:09:00.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:09:00.972+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:09:00.972+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:09:01.867+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:09:01.897+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:09:01.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:09:01.930+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:09:01.930+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:09:01.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.021 seconds
+[2024-10-03T10:09:32.715+0000] {processor.py:186} INFO - Started process (PID=423) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:09:32.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:09:32.721+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:09:32.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:09:33.460+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:09:33.487+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:09:33.487+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:09:33.512+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:09:33.511+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:09:33.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.841 seconds
+[2024-10-03T10:10:04.284+0000] {processor.py:186} INFO - Started process (PID=436) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:10:04.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:10:04.292+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:10:04.292+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:10:05.012+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:10:05.036+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:10:05.036+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:10:05.071+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:10:05.071+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:10:05.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.839 seconds
+[2024-10-03T10:10:35.359+0000] {processor.py:186} INFO - Started process (PID=449) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:10:35.361+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:10:35.368+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:10:35.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:10:36.161+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:10:36.185+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:10:36.185+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:10:36.211+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:10:36.211+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:10:36.240+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.898 seconds
+[2024-10-03T10:11:07.083+0000] {processor.py:186} INFO - Started process (PID=464) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:11:07.085+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:11:07.091+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:11:07.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:11:08.028+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:11:08.067+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:11:08.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:11:08.110+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:11:08.109+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:11:08.139+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.070 seconds
+[2024-10-03T10:11:38.649+0000] {processor.py:186} INFO - Started process (PID=477) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:11:38.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:11:38.655+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:11:38.654+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:11:39.386+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:11:39.410+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:11:39.410+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:11:39.433+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:11:39.433+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:11:39.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.822 seconds
+[2024-10-03T10:12:10.160+0000] {processor.py:186} INFO - Started process (PID=491) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:12:10.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:12:10.168+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:12:10.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:12:10.920+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:12:10.945+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:12:10.945+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:12:10.967+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:12:10.967+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:12:10.993+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.847 seconds
+[2024-10-03T10:12:41.298+0000] {processor.py:186} INFO - Started process (PID=504) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:12:41.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:12:41.306+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:12:41.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:12:42.062+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:12:42.085+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:12:42.085+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:12:42.107+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:12:42.106+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:12:42.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.849 seconds
+[2024-10-03T10:13:12.707+0000] {processor.py:186} INFO - Started process (PID=517) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:13:12.709+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:13:12.714+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:13:12.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:13:13.640+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:13:13.675+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:13:13.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:13:13.709+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:13:13.708+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:13:13.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.051 seconds
+[2024-10-03T10:13:44.500+0000] {processor.py:186} INFO - Started process (PID=530) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:13:44.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:13:44.510+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:13:44.509+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:13:45.385+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:13:45.418+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:13:45.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:13:45.443+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:13:45.442+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:13:45.472+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.986 seconds
+[2024-10-03T10:14:16.177+0000] {processor.py:186} INFO - Started process (PID=543) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:14:16.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:14:16.183+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:14:16.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:14:17.123+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:14:17.166+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:14:17.166+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:14:17.212+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:14:17.211+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:14:17.252+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.089 seconds
+[2024-10-03T10:14:47.887+0000] {processor.py:186} INFO - Started process (PID=556) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:14:47.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:14:47.892+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:14:47.891+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:14:48.647+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:14:48.675+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:14:48.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:14:48.704+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:14:48.704+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:14:48.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.860 seconds
+[2024-10-03T10:15:19.545+0000] {processor.py:186} INFO - Started process (PID=575) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:15:19.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:15:19.550+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:15:19.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:15:20.608+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:15:20.634+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:15:20.634+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:15:20.666+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:15:20.666+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:15:20.694+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.159 seconds
+[2024-10-03T10:15:51.380+0000] {processor.py:186} INFO - Started process (PID=588) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:15:51.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:15:51.389+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:15:51.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:15:52.163+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:15:52.188+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:15:52.187+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:15:52.212+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:15:52.211+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:15:52.239+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.869 seconds
+[2024-10-03T10:16:22.383+0000] {processor.py:186} INFO - Started process (PID=601) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:16:22.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:16:22.389+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:16:22.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:16:23.284+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:16:23.320+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:16:23.320+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:16:23.367+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:16:23.367+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:16:23.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.042 seconds
+[2024-10-03T10:16:54.051+0000] {processor.py:186} INFO - Started process (PID=614) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:16:54.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:16:54.056+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:16:54.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:16:55.021+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:16:55.069+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:16:55.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:16:55.121+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:16:55.120+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:16:55.170+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.127 seconds
+[2024-10-03T10:17:25.821+0000] {processor.py:186} INFO - Started process (PID=627) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:17:25.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:17:25.830+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:17:25.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:17:26.444+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:17:26.472+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:17:26.472+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:17:26.498+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:17:26.497+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:17:26.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.716 seconds
+[2024-10-03T10:17:57.014+0000] {processor.py:186} INFO - Started process (PID=640) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:17:57.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:17:57.021+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:17:57.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:17:57.690+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:17:57.716+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:17:57.716+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:17:57.744+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:17:57.743+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:17:57.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.768 seconds
+[2024-10-03T10:18:28.094+0000] {processor.py:186} INFO - Started process (PID=653) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:18:28.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:18:28.104+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:18:28.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:18:28.706+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:18:28.737+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:18:28.737+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:18:28.773+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:18:28.773+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:18:28.806+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.725 seconds
+[2024-10-03T10:18:59.070+0000] {processor.py:186} INFO - Started process (PID=666) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:18:59.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:18:59.080+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:18:59.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:18:59.774+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:18:59.832+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:18:59.832+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:18:59.890+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:18:59.890+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:18:59.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.886 seconds
+[2024-10-03T10:19:30.551+0000] {processor.py:186} INFO - Started process (PID=679) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:19:30.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:19:30.560+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:19:30.559+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:19:31.159+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:19:31.200+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:19:31.199+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:19:31.226+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:19:31.226+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:19:31.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.719 seconds
+[2024-10-03T10:20:01.702+0000] {processor.py:186} INFO - Started process (PID=692) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:20:01.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:20:01.710+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:20:01.710+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:20:02.312+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:20:02.347+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:20:02.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:20:02.394+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:20:02.394+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:20:02.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.753 seconds
+[2024-10-03T10:20:32.609+0000] {processor.py:186} INFO - Started process (PID=705) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:20:32.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:20:32.617+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:20:32.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:20:33.262+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:20:33.302+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:20:33.301+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:20:33.354+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:20:33.353+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:20:33.399+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.804 seconds
+[2024-10-03T10:21:03.838+0000] {processor.py:186} INFO - Started process (PID=718) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:21:03.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:21:03.845+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:21:03.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:21:04.539+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:21:04.588+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:21:04.587+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:21:04.652+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:21:04.651+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:21:04.697+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.872 seconds
+[2024-10-03T10:21:35.005+0000] {processor.py:186} INFO - Started process (PID=731) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:21:35.006+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:21:35.011+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:21:35.011+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:21:35.643+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:21:35.692+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:21:35.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:21:35.741+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:21:35.741+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:21:35.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.789 seconds
+[2024-10-03T10:22:06.248+0000] {processor.py:186} INFO - Started process (PID=744) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:22:06.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:22:06.254+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:22:06.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:22:06.793+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:22:06.820+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:22:06.819+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:22:06.848+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:22:06.848+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:22:06.886+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.645 seconds
+[2024-10-03T10:22:37.485+0000] {processor.py:186} INFO - Started process (PID=757) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:22:37.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:22:37.493+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:22:37.493+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:22:38.168+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:22:38.223+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:22:38.222+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:22:38.263+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:22:38.262+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:22:38.301+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.832 seconds
+[2024-10-03T10:23:08.465+0000] {processor.py:186} INFO - Started process (PID=770) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:23:08.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:23:08.474+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:23:08.473+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:23:09.062+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:23:09.105+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:23:09.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:23:09.129+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:23:09.129+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:23:09.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.705 seconds
+[2024-10-03T10:23:39.551+0000] {processor.py:186} INFO - Started process (PID=783) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:23:39.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:23:39.557+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:23:39.556+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:23:40.140+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:23:40.176+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:23:40.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:23:40.208+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:23:40.207+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:23:40.244+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.701 seconds
+[2024-10-03T10:24:10.661+0000] {processor.py:186} INFO - Started process (PID=796) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:24:10.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:24:10.669+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:24:10.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:24:11.303+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:24:11.353+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:24:11.353+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:24:11.383+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:24:11.383+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:24:11.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.773 seconds
+[2024-10-03T10:24:41.770+0000] {processor.py:186} INFO - Started process (PID=809) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:24:41.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:24:41.780+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:24:41.779+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:24:42.479+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:24:42.520+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:24:42.520+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:24:42.548+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:24:42.548+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:24:42.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.829 seconds
+[2024-10-03T10:25:13.555+0000] {processor.py:186} INFO - Started process (PID=822) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:25:13.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:25:13.564+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:25:13.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:25:14.202+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:25:14.238+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:25:14.237+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:25:14.288+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:25:14.287+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:25:14.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.794 seconds
+[2024-10-03T10:25:44.985+0000] {processor.py:186} INFO - Started process (PID=835) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:25:44.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:25:44.993+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:25:44.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:25:45.684+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:25:45.743+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:25:45.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:25:45.800+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:25:45.799+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:25:45.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.872 seconds
+[2024-10-03T10:26:16.568+0000] {processor.py:186} INFO - Started process (PID=848) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:26:16.571+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:26:16.579+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:26:16.578+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:26:17.204+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:26:17.260+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:26:17.259+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:26:17.287+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:26:17.287+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:26:17.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.765 seconds
+[2024-10-03T10:26:47.986+0000] {processor.py:186} INFO - Started process (PID=861) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:26:47.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:26:47.995+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:26:47.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:26:48.765+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:26:48.813+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:26:48.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:26:48.862+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:26:48.862+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:26:48.906+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.934 seconds
+[2024-10-03T10:27:19.602+0000] {processor.py:186} INFO - Started process (PID=874) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:27:19.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:27:19.610+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:27:19.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:27:20.263+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:27:20.311+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:27:20.311+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:27:20.347+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:27:20.347+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:27:20.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.790 seconds
+[2024-10-03T10:27:51.090+0000] {processor.py:186} INFO - Started process (PID=893) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:27:51.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:27:51.100+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:27:51.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:27:51.802+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:27:51.829+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:27:51.829+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:27:51.874+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:27:51.873+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:27:51.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.856 seconds
+[2024-10-03T10:28:22.232+0000] {processor.py:186} INFO - Started process (PID=906) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:28:22.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:28:22.241+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:28:22.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:28:22.951+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:28:23.002+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:28:23.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:28:23.032+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:28:23.032+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:28:23.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.853 seconds
+[2024-10-03T10:28:53.171+0000] {processor.py:186} INFO - Started process (PID=919) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:28:53.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:28:53.177+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:28:53.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:28:53.890+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:28:53.919+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:28:53.918+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:28:53.946+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:28:53.946+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:28:53.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.814 seconds
+[2024-10-03T10:29:24.401+0000] {processor.py:186} INFO - Started process (PID=930) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:29:24.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:29:24.410+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:29:24.409+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:29:25.026+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:29:25.073+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:29:25.072+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:29:25.120+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:29:25.120+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:29:25.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.777 seconds
+[2024-10-03T10:29:55.966+0000] {processor.py:186} INFO - Started process (PID=943) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:29:55.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:29:55.978+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:29:55.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:29:56.660+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:29:56.696+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:29:56.696+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:29:56.734+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:29:56.734+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:29:56.782+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.831 seconds
+[2024-10-03T10:30:27.469+0000] {processor.py:186} INFO - Started process (PID=955) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:30:27.471+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:30:27.478+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:30:27.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:30:28.116+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:30:28.143+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:30:28.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:30:28.169+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:30:28.169+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:30:28.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.748 seconds
+[2024-10-03T10:30:58.777+0000] {processor.py:186} INFO - Started process (PID=968) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:30:58.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:30:58.785+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:30:58.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:30:59.557+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:30:59.613+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:30:59.613+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:30:59.679+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:30:59.678+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:30:59.722+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.961 seconds
+[2024-10-03T10:31:30.491+0000] {processor.py:186} INFO - Started process (PID=981) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:31:30.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:31:30.497+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:31:30.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:31:31.005+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:31:31.035+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:31:31.035+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:31:31.064+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:31:31.063+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:31:31.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.610 seconds
+[2024-10-03T10:32:01.598+0000] {processor.py:186} INFO - Started process (PID=994) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:32:01.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:32:01.608+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:32:01.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:32:02.275+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:32:02.306+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:32:02.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:32:02.333+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:32:02.333+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:32:02.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.776 seconds
+[2024-10-03T10:32:33.044+0000] {processor.py:186} INFO - Started process (PID=1007) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:32:33.047+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:32:33.054+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:32:33.053+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:32:33.711+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:32:33.739+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:32:33.739+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:32:33.764+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:32:33.763+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:32:33.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.760 seconds
+[2024-10-03T10:33:04.272+0000] {processor.py:186} INFO - Started process (PID=1020) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:33:04.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:33:04.281+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:33:04.280+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:33:04.908+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:33:04.937+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:33:04.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:33:04.969+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:33:04.969+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:33:05.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.746 seconds
+[2024-10-03T10:33:35.847+0000] {processor.py:186} INFO - Started process (PID=1033) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:33:35.849+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:33:35.856+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:33:35.855+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:33:36.551+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:33:36.582+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:33:36.581+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:33:36.621+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:33:36.621+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:33:36.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.832 seconds
+[2024-10-03T10:34:07.476+0000] {processor.py:186} INFO - Started process (PID=1046) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:34:07.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:34:07.485+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:34:07.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:34:08.219+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:34:08.269+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:34:08.268+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:34:08.318+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:34:08.317+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:34:08.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.898 seconds
+[2024-10-03T10:34:39.358+0000] {processor.py:186} INFO - Started process (PID=1059) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:34:39.360+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:34:39.368+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:34:39.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:34:40.010+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:34:40.068+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:34:40.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:34:40.122+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:34:40.121+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:34:40.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.821 seconds
+[2024-10-03T10:35:10.853+0000] {processor.py:186} INFO - Started process (PID=1072) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:35:10.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:35:10.865+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:35:10.864+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:35:11.685+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:35:11.734+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:35:11.734+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:35:11.790+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:35:11.790+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:35:11.839+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.007 seconds
+[2024-10-03T10:35:42.575+0000] {processor.py:186} INFO - Started process (PID=1085) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:35:42.577+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:35:42.582+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:35:42.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:35:43.099+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:35:43.132+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:35:43.132+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:35:43.164+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:35:43.164+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:35:43.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.638 seconds
+[2024-10-03T10:36:13.774+0000] {processor.py:186} INFO - Started process (PID=1098) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:36:13.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:36:13.780+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:36:13.779+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:36:14.396+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:36:14.441+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:36:14.440+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:36:14.481+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:36:14.481+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:36:14.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.755 seconds
+[2024-10-03T10:36:44.970+0000] {processor.py:186} INFO - Started process (PID=1111) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:36:44.973+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:36:44.981+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:36:44.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:36:45.643+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:36:45.675+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:36:45.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:36:45.713+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:36:45.713+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:36:45.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.791 seconds
+[2024-10-03T10:37:16.199+0000] {processor.py:186} INFO - Started process (PID=1124) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:37:16.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:37:16.212+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:37:16.211+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:37:16.809+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:37:16.839+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:37:16.839+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:37:16.869+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:37:16.869+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:37:16.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.720 seconds
+[2024-10-03T10:37:47.513+0000] {processor.py:186} INFO - Started process (PID=1137) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:37:47.516+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:37:47.524+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:37:47.523+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:37:48.127+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:37:48.165+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:37:48.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:37:48.233+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:37:48.232+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:37:48.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.780 seconds
+[2024-10-03T10:38:18.828+0000] {processor.py:186} INFO - Started process (PID=1150) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:38:18.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:38:18.840+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:38:18.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:38:19.461+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:38:19.487+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:38:19.487+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:38:19.515+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:38:19.515+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:38:19.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.724 seconds
+[2024-10-03T10:38:50.019+0000] {processor.py:186} INFO - Started process (PID=1163) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:38:50.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:38:50.027+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:38:50.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:38:50.656+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:38:50.713+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:38:50.713+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:38:50.767+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:38:50.767+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:38:50.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.808 seconds
+[2024-10-03T10:39:21.374+0000] {processor.py:186} INFO - Started process (PID=1176) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:39:21.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:39:21.382+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:39:21.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:39:22.022+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:39:22.061+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:39:22.060+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:39:22.105+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:39:22.105+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:39:22.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.780 seconds
+[2024-10-03T10:39:52.789+0000] {processor.py:186} INFO - Started process (PID=1195) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:39:52.792+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:39:52.798+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:39:52.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:39:53.377+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:39:53.409+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:39:53.409+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:39:53.435+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:39:53.435+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:39:53.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.689 seconds
+[2024-10-03T10:40:23.692+0000] {processor.py:186} INFO - Started process (PID=1208) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:40:23.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:40:23.700+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:40:23.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:40:24.220+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:40:24.249+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:40:24.248+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:40:24.279+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:40:24.279+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:40:24.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.624 seconds
+[2024-10-03T10:40:54.883+0000] {processor.py:186} INFO - Started process (PID=1221) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:40:54.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:40:54.889+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:40:54.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:40:55.531+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:40:55.564+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:40:55.563+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:40:55.589+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:40:55.588+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:40:55.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.742 seconds
+[2024-10-03T10:41:26.362+0000] {processor.py:186} INFO - Started process (PID=1234) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:41:26.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:41:26.369+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:41:26.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:41:26.923+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:41:26.953+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:41:26.953+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:41:26.983+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:41:26.983+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:41:27.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.671 seconds
+[2024-10-03T10:41:57.414+0000] {processor.py:186} INFO - Started process (PID=1247) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:41:57.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:41:57.422+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:41:57.422+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:41:58.024+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:41:58.052+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:41:58.051+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:41:58.079+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:41:58.078+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:41:58.111+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.713 seconds
+[2024-10-03T10:42:28.635+0000] {processor.py:186} INFO - Started process (PID=1260) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:42:28.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:42:28.644+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:42:28.644+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:42:29.287+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:42:29.346+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:42:29.345+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:42:29.393+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:42:29.393+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:42:29.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.810 seconds
+[2024-10-03T10:43:00.080+0000] {processor.py:186} INFO - Started process (PID=1274) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:43:00.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:43:00.088+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:43:00.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:43:00.759+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:43:00.791+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:43:00.790+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:43:00.819+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:43:00.818+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:43:00.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.777 seconds
+[2024-10-03T10:43:31.634+0000] {processor.py:186} INFO - Started process (PID=1287) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:43:31.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:43:31.642+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:43:31.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:43:32.388+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:43:32.420+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:43:32.419+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:43:32.452+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:43:32.451+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:43:32.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.862 seconds
+[2024-10-03T10:44:03.458+0000] {processor.py:186} INFO - Started process (PID=1300) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:44:03.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:44:03.466+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:44:03.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:44:04.009+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:44:04.040+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:44:04.040+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:44:04.079+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:44:04.078+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:44:04.123+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.682 seconds
+[2024-10-03T10:44:34.755+0000] {processor.py:186} INFO - Started process (PID=1313) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:44:34.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:44:34.766+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:44:34.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:44:35.580+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:44:35.623+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:44:35.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:44:35.663+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:44:35.663+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:44:35.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.956 seconds
+[2024-10-03T10:45:06.485+0000] {processor.py:186} INFO - Started process (PID=1326) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:45:06.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:45:06.496+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:45:06.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:45:07.155+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:45:07.194+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:45:07.194+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:45:07.241+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:45:07.241+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:45:07.284+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.816 seconds
+[2024-10-03T10:45:37.476+0000] {processor.py:186} INFO - Started process (PID=1340) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:45:37.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:45:37.487+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:45:37.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:45:38.116+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:45:38.169+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:45:38.169+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:45:38.202+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:45:38.202+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:45:38.233+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.771 seconds
+[2024-10-03T10:46:09.216+0000] {processor.py:186} INFO - Started process (PID=1352) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:46:09.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:46:09.225+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:46:09.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:46:10.073+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:46:10.130+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:46:10.130+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:46:10.188+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:46:10.187+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:46:10.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.035 seconds
+[2024-10-03T10:46:41.048+0000] {processor.py:186} INFO - Started process (PID=1365) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:46:41.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:46:41.056+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:46:41.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:46:41.644+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:46:41.688+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:46:41.687+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:46:41.725+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:46:41.724+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:46:41.764+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.732 seconds
+[2024-10-03T10:47:12.284+0000] {processor.py:186} INFO - Started process (PID=1378) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:47:12.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:47:12.295+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:47:12.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:47:12.881+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:47:12.910+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:47:12.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:47:12.940+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:47:12.939+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:47:12.967+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.701 seconds
+[2024-10-03T10:47:43.740+0000] {processor.py:186} INFO - Started process (PID=1391) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:47:43.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:47:43.748+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:47:43.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:47:44.322+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:47:44.352+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:47:44.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:47:44.380+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:47:44.380+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:47:44.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.692 seconds
+[2024-10-03T10:48:14.506+0000] {processor.py:186} INFO - Started process (PID=1404) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:48:14.507+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:48:14.511+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:48:14.511+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:48:15.181+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:48:15.222+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:48:15.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:48:15.256+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:48:15.256+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:48:15.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.799 seconds
+[2024-10-03T10:48:45.912+0000] {processor.py:186} INFO - Started process (PID=1417) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:48:45.915+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:48:45.923+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:48:45.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:48:46.622+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:48:46.655+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:48:46.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:48:46.682+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:48:46.681+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:48:46.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.820 seconds
+[2024-10-03T10:49:16.885+0000] {processor.py:186} INFO - Started process (PID=1430) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:49:16.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:49:16.895+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:49:16.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:49:17.453+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:49:17.500+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:49:17.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:49:17.546+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:49:17.545+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:49:17.579+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.712 seconds
+[2024-10-03T10:49:48.103+0000] {processor.py:186} INFO - Started process (PID=1443) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:49:48.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:49:48.108+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:49:48.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:49:48.893+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:49:48.921+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:49:48.921+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:49:48.949+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:49:48.949+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:49:48.978+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.882 seconds
+[2024-10-03T10:50:19.189+0000] {processor.py:186} INFO - Started process (PID=1457) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:50:19.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:50:19.197+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:50:19.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:50:19.940+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:50:19.980+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:50:19.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:50:20.026+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:50:20.026+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:50:20.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.886 seconds
+[2024-10-03T10:50:50.771+0000] {processor.py:186} INFO - Started process (PID=1470) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:50:50.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:50:50.781+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:50:50.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:50:51.418+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:50:51.451+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:50:51.451+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:50:51.516+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:50:51.515+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:50:51.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.810 seconds
+[2024-10-03T10:51:22.285+0000] {processor.py:186} INFO - Started process (PID=1483) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:51:22.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:51:22.293+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:51:22.292+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:51:23.100+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:51:23.158+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:51:23.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:51:23.207+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:51:23.207+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:51:23.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.982 seconds
+[2024-10-03T10:51:54.008+0000] {processor.py:186} INFO - Started process (PID=1502) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:51:54.010+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:51:54.016+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:51:54.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:51:54.680+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:51:54.735+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:51:54.734+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:51:54.797+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:51:54.796+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:51:54.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.849 seconds
+[2024-10-03T10:52:25.734+0000] {processor.py:186} INFO - Started process (PID=1515) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:52:25.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:52:25.743+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:52:25.742+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:52:26.363+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:52:26.392+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:52:26.391+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:52:26.420+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:52:26.420+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:52:26.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.733 seconds
+[2024-10-03T10:52:57.186+0000] {processor.py:186} INFO - Started process (PID=1528) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:52:57.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:52:57.194+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:52:57.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:52:57.702+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:52:57.738+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:52:57.737+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:52:57.767+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:52:57.766+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:52:57.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.628 seconds
+[2024-10-03T10:53:28.620+0000] {processor.py:186} INFO - Started process (PID=1541) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:53:28.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:53:28.630+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:53:28.629+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:53:29.159+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:53:29.193+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:53:29.192+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:53:29.218+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:53:29.218+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:53:29.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.641 seconds
+[2024-10-03T10:53:59.445+0000] {processor.py:186} INFO - Started process (PID=1554) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:53:59.448+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:53:59.457+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:53:59.456+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:54:00.046+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:54:00.075+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:54:00.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:54:00.105+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:54:00.105+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:54:00.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.706 seconds
+[2024-10-03T10:54:30.912+0000] {processor.py:186} INFO - Started process (PID=1567) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:54:30.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:54:30.920+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:54:30.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:54:31.532+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:54:31.558+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:54:31.557+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:54:31.582+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:54:31.582+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:54:31.608+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.710 seconds
+[2024-10-03T10:55:02.314+0000] {processor.py:186} INFO - Started process (PID=1580) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:55:02.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:55:02.319+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:55:02.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:55:02.920+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:55:02.955+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:55:02.954+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:55:02.994+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:55:02.993+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:55:03.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.730 seconds
+[2024-10-03T10:55:33.926+0000] {processor.py:186} INFO - Started process (PID=1593) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:55:33.928+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:55:33.933+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:55:33.932+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:55:34.555+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:55:34.586+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:55:34.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:55:34.614+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:55:34.614+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:55:34.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.733 seconds
+[2024-10-03T10:56:05.378+0000] {processor.py:186} INFO - Started process (PID=1606) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:56:05.381+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:56:05.389+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:56:05.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:56:06.173+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:56:06.211+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:56:06.211+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:56:06.239+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:56:06.239+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:56:06.272+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.908 seconds
+[2024-10-03T10:56:36.814+0000] {processor.py:186} INFO - Started process (PID=1619) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:56:36.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:56:36.822+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:56:36.821+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:56:37.466+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:56:37.508+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:56:37.508+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:56:37.532+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:56:37.532+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:56:37.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.763 seconds
+[2024-10-03T10:57:07.669+0000] {processor.py:186} INFO - Started process (PID=1632) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:57:07.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:57:07.677+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:57:07.676+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:57:08.371+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:57:08.404+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:57:08.404+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:57:08.437+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:57:08.437+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:57:08.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.805 seconds
+[2024-10-03T10:57:39.191+0000] {processor.py:186} INFO - Started process (PID=1647) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:57:39.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:57:39.196+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:57:39.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:57:39.769+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:57:39.797+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:57:39.797+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:57:39.828+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:57:39.828+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:57:39.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.676 seconds
+[2024-10-03T10:58:10.565+0000] {processor.py:186} INFO - Started process (PID=1660) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:58:10.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:58:10.573+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:58:10.572+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:58:11.170+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:58:11.216+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:58:11.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:58:11.274+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:58:11.274+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:58:11.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.771 seconds
+[2024-10-03T10:58:41.902+0000] {processor.py:186} INFO - Started process (PID=1673) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:58:41.904+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:58:41.910+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:58:41.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:58:42.521+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:58:42.567+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:58:42.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:58:42.630+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:58:42.629+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:58:42.664+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.777 seconds
+[2024-10-03T10:59:13.437+0000] {processor.py:186} INFO - Started process (PID=1686) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:59:13.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:59:13.450+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:59:13.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:59:14.378+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:59:14.421+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:59:14.420+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:59:14.465+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:59:14.465+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:59:14.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 1.091 seconds
+[2024-10-03T10:59:45.317+0000] {processor.py:186} INFO - Started process (PID=1699) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T10:59:45.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T10:59:45.326+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:59:45.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:59:46.044+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T10:59:46.079+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:59:46.078+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T10:59:46.104+0000] {logging_mixin.py:190} INFO - [2024-10-03T10:59:46.104+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T10:59:46.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.831 seconds
+[2024-10-03T11:00:16.588+0000] {processor.py:186} INFO - Started process (PID=1712) to work on /opt/airflow/dags/transform_data.py
+[2024-10-03T11:00:16.589+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/transform_data.py for tasks to queue
+[2024-10-03T11:00:16.594+0000] {logging_mixin.py:190} INFO - [2024-10-03T11:00:16.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/transform_data.py
+[2024-10-03T11:00:17.400+0000] {processor.py:925} INFO - DAG(s) 'transform_data' retrieved from /opt/airflow/dags/transform_data.py
+[2024-10-03T11:00:17.432+0000] {logging_mixin.py:190} INFO - [2024-10-03T11:00:17.432+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-03T11:00:17.465+0000] {logging_mixin.py:190} INFO - [2024-10-03T11:00:17.465+0000] {dag.py:4180} INFO - Setting next_dagrun for transform_data to 2024-10-02 00:00:00+00:00, run_after=2024-10-03 00:00:00+00:00
+[2024-10-03T11:00:17.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/transform_data.py took 0.918 seconds

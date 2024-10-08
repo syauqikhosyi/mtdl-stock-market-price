@@ -1,0 +1,3 @@
+[2024-09-30T10:18:48.822+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-30T10:18:48.844+0000] {taskinstance.py:2602} INFO - Dependencies not met for <TaskInstance: extract_data.load_stock_price manual__2024-09-30T10:18:44.809129+00:00 [queued]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=1, skipped=0, failed=0, upstream_failed=0, removed=0, done=1, success_setup=0, skipped_setup=0), upstream_task_ids={'welcome', 'extract_stock_price'}
+[2024-09-30T10:18:48.852+0000] {local_task_job_runner.py:166} INFO - Task is not able to be run

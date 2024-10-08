@@ -1,0 +1,34 @@
+[2024-09-27T15:26:30.839+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-27T15:26:30.853+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_data.extract_stock_price manual__2024-09-27T15:26:29.500313+00:00 [queued]>
+[2024-09-27T15:26:30.862+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_data.extract_stock_price manual__2024-09-27T15:26:29.500313+00:00 [queued]>
+[2024-09-27T15:26:30.863+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-09-27T15:26:30.881+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): extract_stock_price> on 2024-09-27 15:26:29.500313+00:00
+[2024-09-27T15:26:30.887+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=125) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-09-27T15:26:30.890+0000] {standard_task_runner.py:72} INFO - Started process 127 to run task
+[2024-09-27T15:26:30.889+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'extract_data', 'extract_stock_price', 'manual__2024-09-27T15:26:29.500313+00:00', '--job-id', '81', '--raw', '--subdir', 'DAGS_FOLDER/extract_data.py', '--cfg-path', '/tmp/tmp2aimxn0k']
+[2024-09-27T15:26:30.892+0000] {standard_task_runner.py:105} INFO - Job 81: Subtask extract_stock_price
+[2024-09-27T15:26:30.936+0000] {task_command.py:467} INFO - Running <TaskInstance: extract_data.extract_stock_price manual__2024-09-27T15:26:29.500313+00:00 [running]> on host 8a24957e38ae
+[2024-09-27T15:26:31.009+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_data' AIRFLOW_CTX_TASK_ID='extract_stock_price' AIRFLOW_CTX_EXECUTION_DATE='2024-09-27T15:26:29.500313+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-27T15:26:29.500313+00:00'
+[2024-09-27T15:26:31.011+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-27T15:26:31.717+0000] {python.py:240} INFO - Done. Returned value was:                                  Open        High  ...       Close   Volume
+Date                                               ...                     
+2014-01-02 00:00:00+07:00   43.293319   43.293319  ...   41.825748   434556
+2014-01-03 00:00:00+07:00   41.825751   42.559536  ...   42.559536  1798352
+2014-01-06 00:00:00+07:00   42.412779   42.559536  ...   42.559536  1334278
+2014-01-07 00:00:00+07:00   42.412774   42.412774  ...   41.678989  1113447
+2014-01-08 00:00:00+07:00   41.678995   41.825752  ...   41.532238  9790360
+...                               ...         ...  ...         ...      ...
+2024-09-23 00:00:00+07:00  620.000000  625.000000  ...  625.000000  1169800
+2024-09-24 00:00:00+07:00  625.000000  640.000000  ...  635.000000  2525300
+2024-09-25 00:00:00+07:00  640.000000  660.000000  ...  635.000000  4637500
+2024-09-26 00:00:00+07:00  635.000000  645.000000  ...  640.000000  2853700
+2024-09-27 00:00:00+07:00  645.000000  645.000000  ...  635.000000  2343200
+
+[2656 rows x 5 columns]
+[2024-09-27T15:26:31.783+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-27T15:26:31.784+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=extract_data, task_id=extract_stock_price, run_id=manual__2024-09-27T15:26:29.500313+00:00, execution_date=20240927T152629, start_date=20240927T152630, end_date=20240927T152631
+[2024-09-27T15:26:31.831+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-09-27T15:26:31.851+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-09-27T15:26:31.858+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

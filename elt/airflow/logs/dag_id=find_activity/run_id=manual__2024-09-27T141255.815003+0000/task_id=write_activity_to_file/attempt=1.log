@@ -1,0 +1,20 @@
+[2024-09-27T14:13:13.354+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-27T14:13:13.372+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: find_activity.write_activity_to_file manual__2024-09-27T14:12:55.815003+00:00 [queued]>
+[2024-09-27T14:13:13.384+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: find_activity.write_activity_to_file manual__2024-09-27T14:12:55.815003+00:00 [queued]>
+[2024-09-27T14:13:13.385+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-09-27T14:13:13.404+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): write_activity_to_file> on 2024-09-27 14:12:55.815003+00:00
+[2024-09-27T14:13:13.409+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=74) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-09-27T14:13:13.411+0000] {standard_task_runner.py:72} INFO - Started process 75 to run task
+[2024-09-27T14:13:13.412+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'find_activity', 'write_activity_to_file', 'manual__2024-09-27T14:12:55.815003+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/find_activity.py', '--cfg-path', '/tmp/tmp27oa4xdx']
+[2024-09-27T14:13:13.413+0000] {standard_task_runner.py:105} INFO - Job 63: Subtask write_activity_to_file
+[2024-09-27T14:13:13.468+0000] {task_command.py:467} INFO - Running <TaskInstance: find_activity.write_activity_to_file manual__2024-09-27T14:12:55.815003+00:00 [running]> on host 0060ec602991
+[2024-09-27T14:13:13.577+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='find_activity' AIRFLOW_CTX_TASK_ID='write_activity_to_file' AIRFLOW_CTX_EXECUTION_DATE='2024-09-27T14:12:55.815003+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-27T14:12:55.815003+00:00'
+[2024-09-27T14:13:13.579+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-27T14:13:13.592+0000] {python.py:240} INFO - Done. Returned value was: /tmp/activity.txt
+[2024-09-27T14:13:13.617+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-27T14:13:13.618+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=find_activity, task_id=write_activity_to_file, run_id=manual__2024-09-27T14:12:55.815003+00:00, execution_date=20240927T141255, start_date=20240927T141313, end_date=20240927T141313
+[2024-09-27T14:13:13.668+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-09-27T14:13:13.690+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-09-27T14:13:13.695+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

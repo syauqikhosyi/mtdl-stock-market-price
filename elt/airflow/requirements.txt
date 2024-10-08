@@ -1,0 +1,5 @@
+yfinance==0.2.38
+psycopg2==2.9.9
+psycopg2-binary
+sqlAlchemy
+pandas

@@ -1,0 +1,20 @@
+[2024-10-07T14:28:28.779+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-07T14:28:28.804+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transform_data_new.get_db_connection_params manual__2024-10-07T14:28:26.837646+00:00 [queued]>
+[2024-10-07T14:28:28.819+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transform_data_new.get_db_connection_params manual__2024-10-07T14:28:26.837646+00:00 [queued]>
+[2024-10-07T14:28:28.820+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-07T14:28:28.849+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): get_db_connection_params> on 2024-10-07 14:28:26.837646+00:00
+[2024-10-07T14:28:28.859+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=163) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-07T14:28:28.862+0000] {standard_task_runner.py:72} INFO - Started process 165 to run task
+[2024-10-07T14:28:28.862+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'transform_data_new', 'get_db_connection_params', 'manual__2024-10-07T14:28:26.837646+00:00', '--job-id', '222', '--raw', '--subdir', 'DAGS_FOLDER/transform_data_new.py', '--cfg-path', '/tmp/tmpci0gdpz0']
+[2024-10-07T14:28:28.867+0000] {standard_task_runner.py:105} INFO - Job 222: Subtask get_db_connection_params
+[2024-10-07T14:28:28.952+0000] {task_command.py:467} INFO - Running <TaskInstance: transform_data_new.get_db_connection_params manual__2024-10-07T14:28:26.837646+00:00 [running]> on host 62f1fdba7656
+[2024-10-07T14:28:29.179+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='transform_data_new' AIRFLOW_CTX_TASK_ID='get_db_connection_params' AIRFLOW_CTX_EXECUTION_DATE='2024-10-07T14:28:26.837646+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-07T14:28:26.837646+00:00'
+[2024-10-07T14:28:29.182+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-07T14:28:29.188+0000] {python.py:240} INFO - Done. Returned value was: {'extract_url': 'postgresql+psycopg2://postgres:admin@host.docker.internal:5433/metrodata', 'loading_url': 'postgresql+psycopg2://postgres:admin@host.docker.internal:5433/metrodata_prod'}
+[2024-10-07T14:28:29.237+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-07T14:28:29.239+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=transform_data_new, task_id=get_db_connection_params, run_id=manual__2024-10-07T14:28:26.837646+00:00, execution_date=20241007T142826, start_date=20241007T142828, end_date=20241007T142829
+[2024-10-07T14:28:29.281+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-07T14:28:29.344+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-07T14:28:29.349+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
